@@ -1,0 +1,37 @@
+# EEG data never enters this repository.
+# SEED-VIG and DROZY are released under signed licence agreements.
+data/
+datasets/
+*.edf
+*.set
+*.fdt
+*.mat
+*.npy
+*.npz
+*.pkl
+*.h5
+*.fif
+*.bdf
+*.gdf
+*.vhdr
+*.eeg
+*.parquet
+*.feather
+# Derived features dumped as text are still derived features.
+*.csv
+*.tsv
+
+# model artefacts and outputs
+checkpoints/
+*.pt
+*.pth
+results/
+figs/
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
